@@ -1,5 +1,4 @@
 import io.javalin.Javalin;
-import java.util.*;
 import io.javalin.http.Handler;
 
 public class Main {
@@ -11,7 +10,22 @@ public class Main {
 
         app.get("/", ctx -> ctx.render("index.jte"));
 
+        app.get("/getForm", ctx -> ctx.render("form.jte"));
+
+        app.post("/postForm", postFormHandler);
 
     }
+
+    
+
+        public static Handler postFormHandler = ctx -> {
+
+        // This code gets the form parameter called "name" and prints it on the webpage.
+        String name = ctx.formParam("name");
+
+
+        ctx.result("Your name is " + name);
+
+        };
 
 }

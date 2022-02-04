@@ -5,8 +5,12 @@
 </head>
 
 <body>
-    <h2>Hello visitor!</h2>
-
+    
+    <form method="post" action="/postForm">
+    <label>Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Jane"><br>
+    <input type="submit" value="Submit">
+    </form>
 
 </body>
 </html>

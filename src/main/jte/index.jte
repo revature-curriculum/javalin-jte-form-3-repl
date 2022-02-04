@@ -6,6 +6,8 @@
 
 <body>
 
+   <a href="/getForm">Form</a>
+
 
 </body>
 </html>
