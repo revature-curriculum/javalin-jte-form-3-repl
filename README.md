@@ -1,4 +1,4 @@
-## Javalin Forms 3
+## JTE Forms 4: Input Types
 ---
 ### Description
 
