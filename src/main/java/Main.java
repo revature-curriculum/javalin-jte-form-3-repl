@@ -22,9 +22,11 @@ public class Main {
 
         // This code gets the form parameter called "name" and prints it on the webpage.
         String name = ctx.formParam("name");
+        int age = Integer.parseInt(ctx.formParam("age"));
+        String color = ctx.formParam("color");
 
 
-        ctx.result("Your name is " + name);
+        ctx.result("Your name is " + name + ". You are " + age + " years old. Your favorite rainbow color is " + color +"!");
 
         };
 
