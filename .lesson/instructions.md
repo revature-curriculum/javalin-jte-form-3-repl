@@ -17,6 +17,6 @@ In this lab, you will add inputs to a simple form that will print out a little b
 ---
 ### Sample Output
 ```Java
-"Hello your name is Andy, you are 25 years old and your favorite rainbow color is violet!"
+"Hello your name is Andy. You are 25 years old. Your favorite rainbow color is violet!"
 ```
 ---
